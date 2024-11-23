@@ -1,0 +1,15 @@
+{
+  "name": "education_web",
+  "version": "1.0.0",
+  "description": "Bu yerda hammani alohida qismi bor",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
